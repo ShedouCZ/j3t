@@ -259,7 +259,7 @@ module.exports = function(grunt) {
 
 	// Task definition
 	grunt.registerTask('default', ['scripts', 'stylesheets', 'copy']);
-	grunt.registerTask('stylesheets', ['less', 'concat:css', 'concat:css_admin', 'postcss', 'cssmin']);
+	grunt.registerTask('stylesheets', ['less', 'concat:css', 'concat:css_admin', /*'postcss', 'cssmin'*/]);
 	grunt.registerTask('scripts', [/*'react',*/ 'concat:js', 'concat:js_post', 'concat:js_admin']);
 
 	grunt.registerTask('locales', ['po2json', 'json']);

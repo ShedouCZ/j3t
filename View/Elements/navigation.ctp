@@ -6,6 +6,8 @@
 		'Kontakt' => '/kontakt',
 	);
 ?>
+<div class="navbar-wrapper">
+<div class="container">
  <nav class="navbar navbar-inverse navbar-static-top">
 	<div class="container">
 		<div class="navbar-header">
@@ -33,3 +35,5 @@
 		</div>
 	</div>
 </nav>
+</div>
+</div>

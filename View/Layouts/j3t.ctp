@@ -74,17 +74,16 @@
 		'data-plugin-base-url' => $this->Html->url(array('plugin'=>'gallery', 'controller'=>'gallery', 'action'=>'index', 'admin'=>false))
 	));
 ?>
-	<div class="wrap container" role="document">
-		<?php echo $this->Element('header'); ?>
-		<?php echo $this->Session->flash(); ?>
-		<?php echo $this->Element('navigation'); ?>
+			<?php //echo $this->Element('header'); ?>
+			<?php echo $this->Session->flash(); ?>
+			<?php echo $this->Element('navigation'); ?>
+			<?php if ($this->request->here == '/') echo $this->Element('carousel'); ?>
 
-		<div class="content">
-			<?php echo $this->fetch('content'); ?>
-		</div>
+			<div class="content container">
+				<?php echo $this->fetch('content'); ?>
+			</div>
 
-		<?php if (!Configure::read('Routing.admin')) echo $this->element('footer'); ?>
-	</div>
+			<?php if (!Configure::read('Routing.admin')) echo $this->element('footer'); ?>
 
 	<script src="<?php echo "/js/site-post.js?$version"; ?>" type="text/javascript"></script>
 </body>
