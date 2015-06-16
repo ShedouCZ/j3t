@@ -1,0 +1,13 @@
+header .logo {
+    font-size: 64px;
+    font-family: "Arial CE", sans-serif;
+    letter-spacing: -11px;
+    font-weight: bold;
+}
+header .logo:hover {
+    text-decoration: none;
+}
+header .logo sup {
+    position:relative;
+    left:-2px;
+}
