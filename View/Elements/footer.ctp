@@ -1,12 +1,21 @@
+<?php
+	$links = array(
+		'Hlavní strana' => '/',
+		'Řekli o výstavě' => '/o-vystave',
+		'Galerie' => '/galerie',
+		'Kontakt' => '/kontakt',
+	);
+?>
 <div class="footer">
     <hr>
     <ul class="list-inline">
-        <li><a class="" href="/"><?php echo __("Home"); ?></a></li>
-        <li><a class="" href="/gardenpass"><?php echo __("Garden&nbsp;Pass"); ?></a></li>
-        <li><a class="" href="/zahrady"><?php echo __("Gardends"); ?></a></li>
-        <li><a class="" href="/galerie"><?php echo __("Gallery"); ?></a></li>
-        <li><a class="" href="/kalendar"><?php echo __("Calendar"); ?></a></li>
-        <li><a class="" href="/kontakty"><?php echo __("Contact"); ?></a></li>
+        <?php
+            foreach ($links as $title => $url) {
+                $link = $this->Html->link($title, $url);
+                $options = array();
+                echo $this->Html->tag('li', $link, $options);
+            }
+        ?>
     </ul>
     <hr>
 </div>
