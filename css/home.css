@@ -1,8 +1,11 @@
+.carousel-inner {
+	overflow: visible;
+}
 .carousel-caption {
 	right: 0;
 	left: 0;
 	top: 0;
-	bottom: 0;
+	bottom: -73px;
 	color: white;
 	text-shadow: none;
 	text-align:left;
@@ -10,11 +13,13 @@
 }
 .carousel-caption p {
 	max-width: 680px;
+	max-width: 37vw;
 	padding: 3px;
 	position: absolute;
 	top: 20%;
-	right: 0px;
+	right: 60px;
 	font-size: 26px;
+	font-size: 1.6vw;
 	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
 }
 .carousel-caption p span {
@@ -28,6 +33,7 @@
 
 .carousel-caption h1 {
 	min-width: 550px;
+	min-width: 47vw;
 	background-color: #467CAA;
 	display:inline-block;
 	padding: 8px 15px;
@@ -37,6 +43,11 @@
 	bottom: 0px;
 	right: 0px;
 	font-size: 67px;
+	font-size: 4vw;
+}
+.carousel-caption h1:hover {
+	cursor: pointer;
+	background-color: #315C80;
 }
 
 .carousel-caption img {

@@ -28,7 +28,7 @@
                 <h1><?php echo __("<b>O výstavě</b>"); ?></h1><br>
                 <p>
                     <span><i>
-                        <?php echo __("Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy, dokud nebude zničený všudepřítomnou uniformitou. Věříme, že fotografie minimálně mile zahřejí…."); ?>
+                        <?php echo __("Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy,<br> dokud ho nezničí všudepřítomná uniformita."); ?>
                     </i></span>
                 </p>
             </div>
