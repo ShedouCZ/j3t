@@ -27,7 +27,7 @@
 }
 
 .carousel-caption h1 {
-	min-width: 370px;
+	min-width: 550px;
 	background-color: #467CAA;
 	display:inline-block;
 	padding: 8px 15px;
@@ -36,6 +36,7 @@
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+	font-size: 67px;
 }
 
 .carousel-caption img {
