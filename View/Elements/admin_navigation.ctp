@@ -1,9 +1,7 @@
 <?php
 	$links = array(
-		'Hlavní strana' => '/admin/main',
-		'Řekli o výstavě'  => '/admin/about',
+		'Řekli o výstavě'  => '/admin/quotes',
 		'Galerie'  => '/admin/photos',
-		'Kontakt'  => '/admin/contact',
 	);
 ?>
 <div class="actions">
