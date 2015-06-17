@@ -27,7 +27,7 @@
 					<?php echo $this->Form->input('text', array('data-provide'=>'wysiwyg', 'class'=>'form-control', 'placeholder'=>__('Text')));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('order', array('class'=>'form-control', 'placeholder'=>__('Order')));?>
+					<?php echo $this->Form->input('ord', array('class'=>'form-control', 'placeholder'=>__('Ord')));?>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-8">

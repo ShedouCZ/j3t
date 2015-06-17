@@ -11,6 +11,13 @@ class QuotesController extends AppController {
 		$this->set('quotes', $this->Paginator->paginate());
 	}
 
+	public function admin_reorder() {
+		if ($this->request->is('post')) {
+			$this->Quote->saveMany($this->request->data);
+			exit();
+		}
+		$this->set('quotes', $this->Quote->find('all'));
+	}
 
 	public function admin_view($id = null) {
 		if (!$this->Quote->exists($id)) {

@@ -47,9 +47,9 @@
 						</td>
 					</tr>
 					<tr>
-						<th><?php echo __('Order'); ?></th>
+						<th><?php echo __('Ord'); ?></th>
 						<td>
-							<?php echo h($quote['Quote']['order']); ?>
+							<?php echo h($quote['Quote']['ord']); ?>
 						</td>
 					</tr>
 				</tbody>

@@ -4,6 +4,7 @@
 			<div class="page-header">
 					<ul class="nav nav-pills pull-right">
 						<li><?php echo $this->Html->link('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;' . __('New Quote'), array('action' => 'add'), array('escape' => false)); ?></li>
+						<li><?php echo $this->Html->link('<span class="glyphicon glyphicon-sort"></span>&nbsp;&nbsp;' . __('Reorder'), array('action' => 'reorder'), array('escape' => false)); ?></li>
 					</ul>
 								<h1><?php echo __('Quotes'); ?></h1>
 			</div>
@@ -21,7 +22,6 @@
 					<tr>
 						<th><?php echo $this->Paginator->sort('author'); ?></th>
 						<th><?php echo $this->Paginator->sort('text'); ?></th>
-						<th><?php echo $this->Paginator->sort('order'); ?></th>
 						<th class="actions"></th>
 					</tr>
 				</thead>
@@ -30,7 +30,6 @@
 					<tr>
 						<td><?php echo h($quote['Quote']['author']); ?></td>
 						<td><?php echo h($quote['Quote']['text']); ?></td>
-						<td><?php echo h($quote['Quote']['order']); ?></td>
 						<td class="actions">
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-edit"></span>', array('action' => 'edit', $quote['Quote']['id']), array('escape' => false)); ?>
 							<?php echo $this->Form->postLink('<span class="glyphicon glyphicon-remove"></span>', array('action' => 'delete', $quote['Quote']['id']), array('escape' => false), __('Are you sure you want to delete # %s?', $quote['Quote']['id'])); ?>
