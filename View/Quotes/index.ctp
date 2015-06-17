@@ -7,7 +7,7 @@
 			</p>
 		</div>
 		<div class="col-md-5">
-			<h2 class="featurette-heading"><?php echo h($quote['Quote']['author']); ?>
+			<h2 class="featurette-heading"><?php echo $quote['Quote']['author']; ?>,
 			<span class="text-muted"><?php echo @h($quote['Quote']['title']); ?></span></h2>
 		</div>
 	</div>

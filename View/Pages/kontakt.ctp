@@ -1,6 +1,6 @@
 <div class="row featurette">
     <div class="col-md-7">
-        <h2 class="featurette-heading">Jana Jabůrková <span class="text-muted">fotografka</span></h2>
+        <h2 class="featurette-heading">Jana Jabůrková, <span class="text-muted">fotografka</span></h2>
         <p class="lead">
             jabujana (at) gmail.com, +420 731 681 626
         </p>
@@ -12,7 +12,7 @@
 <hr class="featurette-divider">
 <div class="row featurette">
     <div class="col-md-7">
-        <h2 class="featurette-heading">Jiří Turek <span class="text-muted">fotograf</span></h2>
+        <h2 class="featurette-heading">Jiří Turek, <span class="text-muted">fotograf</span></h2>
         <p class="lead">
             jiriturekk (at) gmail.com, +420 775 229 856
         </p>

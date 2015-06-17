@@ -1,0 +1,4 @@
+body[data-controller="quotes"] .featurette-heading {
+    margin-top: 0px;
+    text-align: right;
+}
