@@ -1,3 +1,7 @@
-body[data-admin] {
-    margin-top: 75px;
+body {
+    margin-top: 90px;
+}
+
+body[data-page="home"] {
+    margin-top: 0px
 }
