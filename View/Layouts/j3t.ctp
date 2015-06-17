@@ -71,7 +71,8 @@
 		'data-controller'	=> $this->request->params['controller'],
 		'data-action'		=> $this->request->params['action'],
 		'data-page'			=> @$this->request->params['pass'][0],
-		'data-plugin-base-url' => $this->Html->url(array('plugin'=>'gallery', 'controller'=>'gallery', 'action'=>'index', 'admin'=>false))
+		'data-plugin-base-url' => $this->Html->url(array('plugin'=>'gallery', 'controller'=>'gallery', 'action'=>'index', 'admin'=>false)),
+		'data-admin'        => Configure::read('Routing.admin')
 	));
 ?>
 			<?php //echo $this->Element('header'); ?>

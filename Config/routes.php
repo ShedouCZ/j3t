@@ -20,6 +20,9 @@
 	Router::connect('/o-vystave', array('controller' => 'pages', 'action' => 'display', 'o-vystave'));
 	Router::connect('/galerie', array('controller' => 'pages', 'action' => 'display', 'galerie'));
 	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
+
+	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+	Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

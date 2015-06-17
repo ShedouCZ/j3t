@@ -66,7 +66,7 @@ class AppController extends Controller {
          * LAYOUT
          */
         if (
-            $this->request->url == 'users/login' ||
+            $this->request->url == 'login' ||
             in_array($this->params['prefix'], array('admin'))
         ) {
             $this->layout = 'j3t';
