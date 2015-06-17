@@ -11,7 +11,7 @@
         <div class="item intro active">
             <img width="1140" height="430" src="/img/homepage.jpg" alt="slide-1" />
             <div class="carousel-caption">
-                <h1><?php echo __("<b>NO STRESS!</b>"); ?><br>
+                <h1><?php echo __("<b>NO STRESS!</b>"); ?></h1><br>
             </div>
         </div>
         <div class="item gardepass">

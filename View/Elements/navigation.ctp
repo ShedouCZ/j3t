@@ -16,7 +16,9 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">J<sup>3</sup>T</a>
+			<a class="navbar-brand" href="/">
+				J<sup>3</sup>T
+			</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
