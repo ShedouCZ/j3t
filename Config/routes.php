@@ -18,11 +18,11 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/o-vystave', array('controller' => 'pages', 'action' => 'display', 'o-vystave'));
+	Router::connect('/galerie', array('controller' => 'pages', 'action' => 'display', 'galerie'));
+	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/*', array('controller' => 'pages', 'action' => 'display'));
-
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
