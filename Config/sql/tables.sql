@@ -61,7 +61,6 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 
-
 DROP TABLE IF EXISTS `quotes`;
 CREATE TABLE `quotes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -71,3 +70,19 @@ CREATE TABLE `quotes` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 -- 2015-06-16 11:58:46
+
+DROP TABLE IF EXISTS `quotes`;
+CREATE TABLE `quotes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `author` varchar(255) COLLATE utf8_czech_ci NOT NULL,
+  `title` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
+  `text` text COLLATE utf8_czech_ci NOT NULL,
+  `ord` int(11) NOT NULL DEFAULT '999999',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+
+INSERT INTO `quotes` (`id`, `author`, `title`, `text`, `ord`) VALUES
+(2,	'Prof. PhDr. Zdeněk Jirásek',	'CSc.',	'\"Je léto – doba prázdnin, dovolených, uvolněné nálady a milého užívání si. Ti z nás, kteří však  neopouštějí město na celé zmíněné roční období, mohou navštívit výstavu fotografií, která jim atmosféru volna a pohody  přinese alespoň v jakési virtuální podobě. Jana Jabůrková a  Jiří Turek nás svými fotografiemi přenesou na Kapverdské ostrovy. Tak někde na půl cesty mezi Afrikou a Amerikou, obratníkem Raka a rovníkem. Na území, kde nikdy nezačíná sezóna prostě proto, že nikdy nekončí. Kde se nad plážemi s bělostným pískem sklánějí palmy a moře hraje mnoha odstíny modré a láká k tomu, aby pocestný vstoupil do jeho mihotavých vln a nechal se omývat pěnou, z níž se rodili mnozí bohové různých náboženství. Kde vize zemského ráje je umocňována rozesmátými a dovádějícími černoušky a obrovskou kolekcí roztodivných tropických plodů nezvyklých chuťových vjemů. Jistě – víme, že onen zemský ráj se vytváří především v myslích návštěvníků. Ale fotografie tento zázrak pomíjivého okamžiku zachycuje opravdu věrně. Přestože se řada z nás na Kapverdy hned jen tak nerozjede, užijme si je alespoň takto, zprostředkovaně. Takže – léto budiž pochváleno a dík za příjemný zážitek v opavském Domě umění.”',	999999),
+(3,	'Jana Jabůrková',	'fotografka',	'\"Při své práci se společně s Jiřím Turkem snažíme stát součástí a mít možnost zachytit tak opravdový život lidí na různých místech. Kapverďané jsou opravdu lidé, kteří nejen že mají NO STRESS! jako univerzální odpověď na všechno, oni NO STRESS! žijí!\"',	999999),
+(4,	'Jiří Turek',	'fotograf',	'\"Chtěli jsme zachytit pohodu na Kapverdských ostrovech a předat ji dál. V dnešní době globalizace, je to podle mého názoru, velice důležité. Vzhledem k tomu že na ostrovech vznikají další a další developerské projety a stále více cestovních kanceláří přiváží množství turistů, je možné, že za nedlouho nepoznáme rozdíl, mezi nedalekými Kanárskými ostrovy a Kapverdy.\"',	999999),
+(5,	'Jana Jabůrková, Jiří Turek',	'fotografové',	'\"Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy, dokud nebude zničený všudepřítomnou uniformitou. Věříme, že fotografie minimálně mile zahřejí….  Na konci výstavy chceme věnovat nově zrekonstruovanému opavskému Komunitnímu centru fotografii dle jejich výběru. Zároveň se tomuto centru chystámě věnovat část výtěžku z prodaných fotografií. Věříme, že tak podpoříme náročnou práci sociálních pracovníků, která je opomíjená a není často doceněná. Prosíme také o Vaši podporu!\"',	999999);
