@@ -24,6 +24,9 @@
 					<?php echo $this->Form->input('author', array('class'=>'form-control', 'placeholder'=>__('Author')));?>
 				</div>
 				<div class="form-group">
+					<?php echo $this->Form->input('title', array('class'=>'form-control', 'placeholder'=>__('Title')));?>
+				</div>
+				<div class="form-group">
 					<?php echo $this->Form->input('text', array('data-provide'=>'wysiwyg', 'class'=>'form-control', 'placeholder'=>__('Text')));?>
 				</div>
 				<div class="form-group">

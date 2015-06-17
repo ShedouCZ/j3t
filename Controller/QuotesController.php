@@ -5,7 +5,10 @@ class QuotesController extends AppController {
 
 	public $components = array('Paginator', 'Session');
 
-
+	public function index() {
+		$quotes = $this->Quote->find('all');
+		$this->set('quotes', $quotes);
+	}
 	public function admin_index() {
 		$this->Quote->recursive = 0;
 		$this->set('quotes', $this->Paginator->paginate());
