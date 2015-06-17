@@ -17,7 +17,8 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	Router::connect('/o-vystave', array('controller' => 'pages', 'action' => 'display', 'o-vystave'));
+	Router::connect('/o-vystave-2', array('controller' => 'pages', 'action' => 'display', 'o-vystave'));
+	Router::connect('/o-vystave', array('controller' => 'quotes', 'action' => 'index'));
 	Router::connect('/galerie', array('controller' => 'pages', 'action' => 'display', 'galerie'));
 	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
 
