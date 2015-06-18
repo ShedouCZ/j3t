@@ -24,12 +24,6 @@
 					<?php echo $this->Form->input('title', array('class'=>'form-control', 'placeholder'=>__('Title')));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('garden_id', array('empty' => true, 'class'=>'form-control', 'placeholder'=>__('Garden Id')));?>
-				</div>
-				<div class="form-group">
-					<?php echo $this->Form->input('calendar_item_id', array('empty' => true, 'class'=>'form-control', 'placeholder'=>__('Calendar Item Id')));?>
-				</div>
-				<div class="form-group">
 					<?php echo $this->Form->input('created', array(
 						'type' => 'text',
 						'data-provide' => 'datepicker',

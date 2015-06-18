@@ -22,9 +22,7 @@
 					<tr>
 						<th><?php echo $this->Paginator->sort('title'); ?></th>
 						<th>Obrázky</th>
-						<th><?php echo $this->Paginator->sort('garden_id'); ?></th>
 						<th><?php echo $this->Paginator->sort('created'); ?></th>
-						<th><?php echo $this->Paginator->sort('calendar_item_id'); ?></th>
 						<th class="actions"></th>
 					</tr>
 				</thead>
@@ -39,14 +37,7 @@
 								}
 							?>
 						</td>
-						<td>
-							<?php //echo $this->Html->link($photo['Garden']['name'], array('controller' => 'gardens', 'action' => 'edit', $photo['Garden']['id'])); ?>
-							<?php echo $photo['Garden']['name']; ?>
-						</td>
 						<td><?php echo $this->Time->format($photo['Photo']['created'], '%-d.%-m.&nbsp;%Y'); ?></td>
-						<td>
-							<?php echo $this->Html->link($photo['CalendarItem']['title'], array('controller' => 'calendar_items', 'action' => 'edit', $photo['CalendarItem']['id'])); ?>
-						</td>
 						<td class="actions">
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-edit"></span>', array('action' => 'edit', $photo['Photo']['id']), array('escape' => false)); ?>
 							<?php echo $this->Form->postLink('<span class="glyphicon glyphicon-remove"></span>', array('action' => 'delete', $photo['Photo']['id']), array('escape' => false), __('Are you sure you want to delete # %s?', $photo['Photo']['id'])); ?>
