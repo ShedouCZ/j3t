@@ -135,4 +135,7 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+// Load the global event listeners.
+require_once APP . 'Config' . DS . 'events.php';
+
 require_once APP . 'Config' . DS . 'gallery.php';
