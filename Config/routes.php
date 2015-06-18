@@ -21,6 +21,7 @@
 	Router::connect('/o-vystave', array('controller' => 'quotes', 'action' => 'index'));
 	Router::connect('/galerie', array('controller' => 'pages', 'action' => 'display', 'galerie'));
 	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
+	Router::connect('/no-stress', array('controller' => 'pages', 'action' => 'display', 'no-stress'));
 
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 	Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));

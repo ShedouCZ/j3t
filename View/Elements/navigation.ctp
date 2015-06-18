@@ -1,5 +1,6 @@
 <?php
 	$links = array(
+		'NO STRESS!' => '/admin/no/stress',
 		'Řekli o výstavě' => '/o-vystave',
 		'Galerie' => '/galerie',
 		'Kontakt' => '/kontakt',

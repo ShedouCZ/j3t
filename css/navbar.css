@@ -9,7 +9,7 @@
   }
 
   body[data-page="home"] .navbar-wrapper > .container {
-      width: 410px;
+      width: 520px;
       margin-right: 6%;
   }
   body[data-page="home"] .navbar > .container .navbar-brand {

@@ -31,6 +31,12 @@
 	font-style: normal;
 }
 
+.carousel-caption h1 a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .carousel-caption h1 {
 	min-width: 550px;
 	min-width: 47vw;
@@ -45,6 +51,7 @@
 	font-size: 67px;
 	font-size: 4vw;
 }
+
 .carousel-caption h1:hover {
 	cursor: pointer;
 	background-color: #315C80;
@@ -125,4 +132,8 @@
 	color: #858796;
 	margin-top: 4px;
 	margin-left: 8px;
+}
+
+p {
+	font-size: 21px;
 }

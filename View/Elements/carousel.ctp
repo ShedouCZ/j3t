@@ -11,13 +11,13 @@
         <div class="item intro active">
             <img width="1140" height="430" src="/img/homepage.jpg" alt="slide-1" />
             <div class="carousel-caption">
-                <h1><?php echo __("<b>NO STRESS!</b>"); ?></h1><br>
+                <h1><?php echo $this->Html->link(__('NO STRESS!'), '/no-stress'); ?></h1><br>
             </div>
         </div>
         <div class="item gardepass">
             <img width="1140" height="430" src="/img/vystava1.jpg" alt="slide-1" />
             <div class="carousel-caption">
-                <h1><?php echo __("<b>O výstavě</b>"); ?><br>
+                <h1><?php echo $this->Html->link(__('O výstavě'), '/o-vystave'); ?><br>
                 <p>
                 </p>
             </div>
@@ -25,7 +25,7 @@
         <div class="item botanicka">
             <img width="1140" height="430" src="/img/vystava2.jpg" alt="slide-1" />
             <div class="carousel-caption">
-                <h1><?php echo __("<b>O výstavě</b>"); ?></h1><br>
+                <h1><?php echo $this->Html->link(__("Galerie"), '/galerie'); ?></h1><br>
                 <p>
                     <span><i>
                         <?php echo __("Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy,<br> dokud ho nezničí všudepřítomná uniformita."); ?>
