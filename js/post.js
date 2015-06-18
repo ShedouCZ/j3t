@@ -63,3 +63,10 @@ $('input#CalendarItemEnd').on('dp.hide', function (e) {
 		$start.data('DateTimePicker').date(e.date.subtract(1, 'h'));
 	}
 });
+
+// MODULE swipebox (in Photos/view.ctp)
+if ($().swipebox && $('.swipebox')) {
+	$('.swipebox').swipebox({
+		hideBarsDelay : false
+	});
+}
