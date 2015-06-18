@@ -21,7 +21,8 @@
 				<?php foreach ($quotes as $item) {?>
 					<div class="list-group-item" data-item-id="<?php echo h($item['Quote']['id']); ?>">
 						<span class="glyphicon glyphicon-move" aria-hidden="true"></span>
-						<?php echo $this->Html->link($item['Quote']['author'], array('action' => 'index', $item['Quote']['id'])); ?>					</div>
+						<?php echo $this->Html->link($item['Quote']['author'], array('action' => 'index', $item['Quote']['id']), array('escape'=>false)); ?>
+					</div>
 				<?php } ?>
 			</div>
 		</div> <!-- end col md 9 -->
