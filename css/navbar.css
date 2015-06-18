@@ -3,18 +3,34 @@
     margin-top: 0px;
   }
   .navbar-wrapper .navbar {
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-radius: 0px;
+    border-width: 0px;
   }
 
   body[data-page="home"] .navbar-wrapper > .container {
-      width: 520px;
-      margin-right: 6%;
+      padding-right: 0px;
+      width: 629px;
+      margin-right: 0px;
   }
   body[data-page="home"] .navbar > .container .navbar-brand {
       margin-left: 0px;
+      text-indent: -9999px;
+      width: 70px;
   }
+
+  .navbar > .container .navbar-brand {
+      font-size: 32px;
+  }
+  .navbar > .container .navbar-brand sup {
+      position: relative;
+      left:-2px;
+      letter-spacing:-3px;
+  }
+}
+
+body[data-page="home"] .navbar-default {
+    background-color: transparent;
+    background-image: url('navigation-bg2.png');
 }
 
 .navbar-default {
