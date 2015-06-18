@@ -115,6 +115,22 @@ Configure::write('Bs3.Form.styles', array(
 	)
 ));
 
+// List of languages you want to support
+Configure::write('Config.languages', array('ces', 'eng'));
+$language = 'ces';
+Configure::write('Config.language', $language);
+// Config.language will be yet updated in AppController::beforeFilter according to user session
+
+$tx = array(
+	'ces' => 'cs_CZ',
+	'eng' => 'en_US',
+	'rus' => 'ru_RU'
+);
+// initial setting
+($locale = @$tx[$language]) || ($locale = 'cs_CZ');
+Configure::write('Config.locale', $locale);
+// Config.locale will be yet updated in AppController::beforeFilter according to user session
+
 Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'

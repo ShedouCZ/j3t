@@ -1,0 +1,14 @@
+.panel-container-album > .panel-heading > .panel-title {
+  font-size: 17px;
+}
+
+.panel-container-album .open-config,
+.panel-container-album .btn-info,
+.panel-container-album .btn-sm
+{
+    display:none;
+}
+
+.panel-container-album > .panel-heading > .panel-title {
+    margin-top: 0;
+}
