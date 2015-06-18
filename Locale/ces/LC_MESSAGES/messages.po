@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2015-06-05 10:55:+0000\n"
+"Project-Id-Version: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-06-05 13:00+0100\n"
+"Last-Translator: Jan Ptacek <jan.ptacek@gmail.com>\n"
+"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs\n"
+
+#: Plugin/Gallery/webroot/js/scripts.js:37
+#: Plugin/Gallery/webroot/js/scripts.js:82
+#: Plugin/Gallery/webroot/js/scripts.js:114
+msgid "Are you sure?"
+msgstr "Jste si jisti?"
+
+#: Plugin/Gallery/webroot/js/scripts.js:69
+msgid "Order Saved!"
+msgstr "Uloženo!"

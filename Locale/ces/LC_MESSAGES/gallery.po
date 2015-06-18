@@ -1,0 +1,131 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-06-05 11:28+0200\n"
+"PO-Revision-Date: 2015-06-05 11:33+0100\n"
+"Last-Translator: Jan Ptacek <jan.ptacek@gmail.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#: /Controller/AlbumsController.php:21
+msgid "This album does not exist"
+msgstr "Album neexistuje."
+
+#: /Controller/AlbumsController.php:35
+msgid "You configurations are saved."
+msgstr "Uloženo."
+
+#: /Controller/AlbumsController.php:93
+msgid "Album deleted."
+msgstr "Album bylo smazáno."
+
+#: /Controller/GalleryController.php:15 /View/Gallery/index.ctp:81
+msgid "Published albums"
+msgstr "Publikované"
+
+#: /Controller/GalleryController.php:19 /View/Gallery/index.ctp:87
+msgid "Drafts"
+msgstr "V přípravě"
+
+#: /View/Albums/upload.ctp:33;198;275
+msgid "Upload pictures"
+msgstr "Nahrát"
+
+#: /View/Albums/upload.ctp:42
+msgid "View album"
+msgstr "Zobrazit"
+
+#: /View/Albums/upload.ctp:59
+msgid "Options"
+msgstr "Nastavení"
+
+#: /View/Albums/upload.ctp:91
+msgid "Album options"
+msgstr "Nastavení"
+
+#: /View/Albums/upload.ctp:104
+msgid "Album title"
+msgstr "Název"
+
+#: /View/Albums/upload.ctp:115
+msgid "Tags (comma separated)"
+msgstr "Štítky (oddělené ,)"
+
+#: /View/Albums/upload.ctp:121
+msgid "Status"
+msgstr ""
+
+#: /View/Albums/upload.ctp:132
+msgid "Draft"
+msgstr ""
+
+#: /View/Albums/upload.ctp:133
+msgid "Published"
+msgstr "Veřejné"
+
+#: /View/Albums/upload.ctp:150
+msgid "Save"
+msgstr "Uložit"
+
+#: /View/Albums/upload.ctp:153
+msgid "Close"
+msgstr "Zavřit"
+
+#: /View/Albums/upload.ctp:158
+msgid ""
+"Use the top form to update your gallery information, such as name, tags or "
+"publish status."
+msgstr "Pomocí formuláře upravíte název galerie, její tagy a zveřejnění."
+
+#: /View/Albums/upload.ctp:159
+msgid "To upload new images to this album, press the upload button."
+msgstr "Pro přidání nových fotografií slouží tlačítko 'Nahrát'."
+
+#: /View/Albums/upload.ctp:160
+msgid ""
+"Drag the pictures to reorder your gallery. (Dont worry, this changes are "
+"saved automatically)"
+msgstr ""
+"Přetáhnutím myši můžete obrázky přeuspořádat. (Změny se ukládají automaticky "
+"na pozadí)"
+
+#: /View/Albums/upload.ctp:161
+msgid "If you delete this album, all its images will be deleted as well."
+msgstr "Pokud nějaké album smažete, smažou se zároveň i všechny jeho obrázky."
+
+#: /View/Albums/upload.ctp:162
+msgid ""
+"The first image of the album will be considered as the cover. To change the "
+"cover just drag the image you want to mark as a cover at the first position "
+"of the grid"
+msgstr ""
+"První obrázek je titulní fotogragie. Pro její změny stačí zvolený obrázek "
+"přetáhnout na první místo."
+
+#: /View/Albums/upload.ctp:164
+msgid "Help"
+msgstr "Nápověda"
+
+#: /View/Albums/upload.ctp:168
+msgid "Delete album"
+msgstr "Smazat album"
+
+#: /View/Albums/upload.ctp:194
+msgid "This album doesn't have pictures yet."
+msgstr "Prozatím tu nejsou žádné fotky."
+
+#: /View/Albums/upload.ctp:296
+msgid "Done"
+msgstr "Hotovo"
+
+#: /View/Albums/view.ctp:17
+msgid "Edit album"
+msgstr "Upravit"
