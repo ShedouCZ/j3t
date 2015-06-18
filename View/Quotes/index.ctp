@@ -1,5 +1,7 @@
-<?php foreach ($quotes as $quote) { ?>
-	<hr class="featurette-divider">
+<?php foreach ($quotes as $i => $quote) { ?>
+	<?php if ($i != 0) { ?>
+		<hr class="featurette-divider">
+	<?php } ?>
 	<div class="row featurette">
 		<div class="col-md-7">
 			<p class="lead">

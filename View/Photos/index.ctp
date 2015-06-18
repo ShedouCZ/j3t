@@ -1,11 +1,3 @@
-<div class="item active" style="position:relative">
-    <img width="1140" height="430" src="/img/slide_01_bg.jpg" class=" wp-post-image" alt="slide-1" />
-    <div class="carousel-caption" style="position:absolute; padding:0">
-    </div>
-</div>
-
-<hr>
-
 <h1><?php echo __('Gallery'); ?></h1>
 
 <div class="row">

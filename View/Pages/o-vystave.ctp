@@ -1,9 +1,8 @@
-<hr class="featurette-divider">
 <div class="row featurette">
     <div class="col-md-7">
         <h2 class="featurette-heading">Prof. PhDr. Zdeněk Jirásek <span class="text-muted">CSc.</span></h2>
         <p class="lead">"Je léto – doba prázdnin, dovolených, uvolněné nálady a milého užívání si.
-            Ti z nás, kteří však  neopouštějí město na celé zmíněné roční období, mohou navštívit výstavu
+            Ti z nás, kteří však neopouštějí město na celé zmíněné roční období, mohou navštívit výstavu
             fotografií, která jim atmosféru volna a pohody  přinese alespoň v jakési virtuální podobě.
             Jana Jabůrková a  Jiří Turek nás svými fotografiemi přenesou na Kapverdské ostrovy. Tak někde
             na půl cesty mezi Afrikou a Amerikou, obratníkem Raka a rovníkem. Na území, kde nikdy nezačíná
@@ -39,9 +38,9 @@
     <div class="col-md-7">
         <h2 class="featurette-heading">Jiří Turek <span class="text-muted">fotograf</span></h2>
         <p class="lead">"Chtěli jsme zachytit pohodu na Kapverdských ostrovech a předat ji dál.
-            V dnešní době globalizace, je to podle mého názoru, velice důležité. Vzhledem k tomu že
+            V dnešní době globalizace je to podle mého názoru velice důležité. Vzhledem k tomu, že
             na ostrovech vznikají další a další developerské projety a stále více cestovních kanceláří
-            přiváží množství turistů, je možné, že za nedlouho nepoznáme rozdíl, mezi nedalekými
+            přiváží množství turistů, je možné, že za nedlouho nepoznáme rozdíl mezi nedalekými
             Kanárskými ostrovy a Kapverdy."
         </p>
     </div>
