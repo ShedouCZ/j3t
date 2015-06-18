@@ -60,34 +60,3 @@
 </div>
 
 <hr>
-
-<div class="row">
-    <?php echo $this->Form->create('Photo', array('role'=>'form', 'type'=>'get', 'class'=>'filter-on-change')); ?>
-        <div class="col-sm-3">
-            <?php echo $this->Form->input('garden_id', array('empty' => true, 'class'=>'form-control', 'placeholder'=>__('Zahrada')));?>
-        </div>
-        <div class="col-sm-3">
-            <?php
-                $seasons = array(
-                    '0' => __('spring'),
-                    '1' => __('summer'),
-                    '2' => __('autumn'),
-                    '3' => __('winter'),
-                );
-            ?>
-            <?php echo $this->Form->input('season_id', array('options'=>$seasons, 'empty' => true, 'class'=>'form-control', 'label'=>__('Season'), 'placeholder'=>__('Season')));?>
-        </div>
-        <div class="col-sm-3">
-            <?php echo $this->Form->input('calendar_item_id', array('empty' => true, 'class'=>'form-control', 'label'=>__('Event'), 'placeholder'=>__('Event')));?>
-        </div>
-        <div class="col-sm-3" style="margin-top:24px;  text-align:center">
-            <?php
-                if (!empty($this->request->data['Photo'])) {
-                    echo $this->Form->submit(__('View All'), array('class'=>'btn btn-info', 'style'=>"width:90%", 'id'=>'all', 'name'=>'all'));
-                } else {
-                    echo $this->Form->submit(__('Filter'), array('class'=>'btn btn-info', 'style'=>"width:90%"));
-                }
-            ?>
-        </div>
-    <?php echo $this->Form->end() ?>
-</div>
