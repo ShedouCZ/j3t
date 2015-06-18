@@ -33,3 +33,33 @@ $('.list-group').each(function (i,e) {
         }
     });
 });
+
+// MODULE: eonasdan timepicker
+$('input[data-provide=datepicker]').datetimepicker({
+	format: 'D.M.YYYY',
+	locale: App.session_locale,
+	useCurrent: false,
+	viewMode: 'months',
+	showTodayButton: true,
+	showClear: true
+})
+.next().click(function() {
+	// clicking an input-group-addon (next sibling)
+	$(this).prev().focus();
+});
+$('input#CalendarItemStart').on('dp.hide', function (e) {
+	// sensible default for BookingEnd
+	var $end = $('input#CalendarItemEnd');
+	$end.data('DateTimePicker').minDate(e.date);
+	if (!$end.val()) {
+		$end.data('DateTimePicker').date(e.date.add(1, 'h'));
+	}
+});
+$('input#CalendarItemEnd').on('dp.hide', function (e) {
+	// sensible default for BookingStart
+	var $start = $('input#CalendarItemStart');
+	$start.data('DateTimePicker').maxDate(e.date);
+	if (!$start.val()) {
+		$start.data('DateTimePicker').date(e.date.subtract(1, 'h'));
+	}
+});
