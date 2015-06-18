@@ -65,16 +65,6 @@ DROP TABLE IF EXISTS `quotes`;
 CREATE TABLE `quotes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `author` varchar(255) COLLATE utf8_czech_ci NOT NULL,
-  `text` text COLLATE utf8_czech_ci NOT NULL,
-  `ord` int(11) NOT NULL DEFAULT '999999',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
--- 2015-06-16 11:58:46
-
-DROP TABLE IF EXISTS `quotes`;
-CREATE TABLE `quotes` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `author` varchar(255) COLLATE utf8_czech_ci NOT NULL,
   `title` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
   `text` text COLLATE utf8_czech_ci NOT NULL,
   `ord` int(11) NOT NULL DEFAULT '999999',

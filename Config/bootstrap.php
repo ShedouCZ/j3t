@@ -19,10 +19,10 @@ CakePlugin::load(array(
 	//'Configuration',
 	'ClearCache',
 	//'RangeParser',
-	//'Gallery' => array(
-	//	'bootstrap' => true,
-	//	'routes' => true
-	//),
+	'Gallery' => array(
+		'bootstrap' => true,
+		'routes' => true
+	),
 	//'Localized',
 	//'DebugKit',
 ));
@@ -134,3 +134,5 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+require_once APP . 'Config' . DS . 'gallery.php';
