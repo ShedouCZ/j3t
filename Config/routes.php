@@ -19,7 +19,7 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/o-vystave-2', array('controller' => 'pages', 'action' => 'display', 'o-vystave'));
 	Router::connect('/o-vystave', array('controller' => 'quotes', 'action' => 'index'));
-	Router::connect('/galerie', array('controller' => 'photos', 'action' => 'index'));
+	Router::connect('/galerie', array('controller' => 'photos', 'action' => 'view'));
 	Router::connect('/galerie/:id', array('controller' => 'photos', 'action' => 'view', 'id' => '[0-9]+'), array('pass' => array('id')));
 	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
 	Router::connect('/no-stress', array('controller' => 'pages', 'action' => 'display', 'no-stress'));

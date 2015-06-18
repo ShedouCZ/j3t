@@ -19,7 +19,9 @@ class PhotosController extends AppController {
 		$this->Album->id = $id;
 
 		if (!$this->Album->exists()) {
-			throw new NotFoundException(__d('gallery', 'This album does not exist'));
+			// use first you find
+			$photo = $this->Photo->find('first');
+			$this->Album->id = $photo['Gallery']['Album']['id'];
 		}
 
 		$this->Album->bindModel(
