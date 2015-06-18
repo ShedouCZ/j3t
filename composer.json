@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/ptica/CakePHP-Configuration-Plugin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ptica/cakegallery.git"
         }
     ],
     "require": {
@@ -25,7 +29,8 @@
         "ptica/BootstrapCake": "dev-master",
         "codaxis/cakephp-bootstrap3-helpers": "1.1",
         "ceeram/clear_cache": "~1.1",
-        "webtechnick/configuration": "dev-bootstrap_theme"
+        "webtechnick/configuration": "dev-bootstrap_theme",
+        "hugodias/cakegallery": "dev-locale"
     },
     "config": {
         "vendor-dir": "Vendor/"
