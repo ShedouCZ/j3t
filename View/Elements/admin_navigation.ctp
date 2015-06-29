@@ -2,6 +2,7 @@
 	$links = array(
 		'Řekli o výstavě'  => '/admin/quotes',
 		'Galerie'  => '/admin/photos',
+		'Slides'  => '/admin/sliders',
 	);
 ?>
 <div class="actions">
