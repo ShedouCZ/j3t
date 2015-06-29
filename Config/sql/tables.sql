@@ -76,3 +76,20 @@ INSERT INTO `quotes` (`id`, `author`, `title`, `text`, `ord`) VALUES
 (3,	'Jana Jabůrková',	'fotografka',	'\"Při své práci se společně s Jiřím Turkem snažíme stát součástí a mít možnost zachytit tak opravdový život lidí na různých místech. Kapverďané jsou opravdu lidé, kteří nejen že mají NO STRESS! jako univerzální odpověď na všechno, oni NO STRESS! žijí!\"',	999999),
 (4,	'Jiří Turek',	'fotograf',	'\"Chtěli jsme zachytit pohodu na Kapverdských ostrovech a předat ji dál. V dnešní době globalizace, je to podle mého názoru, velice důležité. Vzhledem k tomu že na ostrovech vznikají další a další developerské projety a stále více cestovních kanceláří přiváží množství turistů, je možné, že za nedlouho nepoznáme rozdíl, mezi nedalekými Kanárskými ostrovy a Kapverdy.\"',	999999),
 (5,	'Jana Jabůrková, Jiří Turek',	'fotografové',	'\"Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy, dokud nebude zničený všudepřítomnou uniformitou. Věříme, že fotografie minimálně mile zahřejí….  Na konci výstavy chceme věnovat nově zrekonstruovanému opavskému Komunitnímu centru fotografii dle jejich výběru. Zároveň se tomuto centru chystámě věnovat část výtěžku z prodaných fotografií. Věříme, že tak podpoříme náročnou práci sociálních pracovníků, která je opomíjená a není často doceněná. Prosíme také o Vaši podporu!\"',	999999);
+
+DROP TABLE IF EXISTS `sliders`;
+CREATE TABLE `sliders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) COLLATE utf8_czech_ci NOT NULL,
+  `desc` text COLLATE utf8_czech_ci,
+  `ord` int(11) NOT NULL DEFAULT '9999999',
+  `style` text COLLATE utf8_czech_ci,
+  `url` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
+  `page` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+
+INSERT INTO `sliders` (`id`, `title`, `desc`, `ord`, `style`, `url`, `page`) VALUES
+(1,	'NO STRESS!',	'<p>Výstava NO STRESS!</p><p>Autoři: Jana Jabůrková, Jiří TurekMísto: </p><p>Dům umění OPAVA, Pekařská 12</p><p>Trvání: 14.7. 2015 - 28.8.2015 (Otevřeno denně mimo pondělí od 10:00 do 18:00 hodin)</p><p>Téma: NO STRESS! život na Kapverdských ostrovech.</p>',	1,	'',	'/img/homepage.jpg',	'/no-stress'),
+(2,	'O výstavě',	'<p>Výstava NO STRESS!</p><p>Autoři: Jana Jabůrková, Jiří TurekMísto:</p><p>Dům umění OPAVA, Pekařská 12</p><p>Trvání: 14.7. 2015 - 28.8.2015 (Otevřeno denně mimo pondělí od 10:00 do 18:00 hodin)</p><p><span style=\"line-height: 1.42857143;\">Téma: NO STRESS! život na Kapverdských ostrovech.</span><span style=\"line-height: 1.42857143;\">.</span><br></p>',	2,	'',	'/img/vystava1.jpg',	'/o-vystave'),
+(3,	'Galerie',	'<p>\"Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy,</p><p> dokud ho nezničí všudepřítomná uniformita.</p>',	3,	'',	'/img/vystava2.jpg',	'/galerie');
