@@ -155,3 +155,6 @@ CakeLog::config('error', array(
 require_once APP . 'Config' . DS . 'events.php';
 
 require_once APP . 'Config' . DS . 'gallery.php';
+
+// css version bump string
+Configure::load('version');
