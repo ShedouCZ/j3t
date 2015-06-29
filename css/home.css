@@ -11,25 +11,6 @@
 	text-align:left;
 	padding: 0;
 }
-.carousel-caption p {
-	max-width: 680px;
-	max-width: 37vw;
-	padding: 3px;
-	position: absolute;
-	top: 20%;
-	right: 60px;
-	font-size: 26px;
-	font-size: 1.6vw;
-	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
-}
-.carousel-caption p span {
-	line-height: 17px;
-	position: relative;
-}
-.carousel-caption p span i {
-	position: relative;
-	font-style: normal;
-}
 
 .carousel-caption h1 a{
 	color: #fff;

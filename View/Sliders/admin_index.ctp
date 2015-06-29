@@ -22,7 +22,6 @@
 					<tr>
 						<th><?php echo $this->Paginator->sort('title'); ?></th>
 						<th><?php echo $this->Paginator->sort('desc'); ?></th>
-						<th><?php echo $this->Paginator->sort('style'); ?></th>
 						<th><?php echo $this->Paginator->sort('url'); ?></th>
 						<th><?php echo $this->Paginator->sort('page'); ?></th>
 						<th class="actions"></th>
@@ -33,7 +32,6 @@
 					<tr>
 						<td><?php echo h($slider['Slider']['title']); ?></td>
 						<td><?php echo h($slider['Slider']['desc']); ?></td>
-						<td><?php echo h($slider['Slider']['style']); ?></td>
 						<td><?php echo h($slider['Slider']['url']); ?></td>
 						<td><?php echo h($slider['Slider']['page']); ?></td>
 						<td class="actions">

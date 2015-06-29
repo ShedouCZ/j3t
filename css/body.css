@@ -5,3 +5,10 @@ body {
 body[data-page="home"] {
     margin-top: 0px
 }
+
+@media (max-width: 768px) {
+    body[data-page="home"] {
+        margin-top: 51px
+    }
+
+}

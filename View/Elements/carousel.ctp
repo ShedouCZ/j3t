@@ -12,26 +12,24 @@
     ?>
     <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <?php foreach ($sliders as $i => $slider): ?>
+            <?php foreach ($sliders as $i => $item): ?>
                 <?php
                     $class = '' ;
                     if ($i == 0) { $class = 'active'; };
                 ?>
                 <div class="item <?php echo $class; ?>">
-                    <img src=<?php echo $slider['Slider']['url']; ?> width="1140" height="430"/>
+                    <img src=<?php echo $item['Slider']['url']; ?> width="1140" height="430"/>
                     <div class="carousel-caption">
                         <h1>
                             <?php
-                              $title = $slider['Slider']['title'];
-                              $page = $slider['Slider']['page'];
+                              $title = $item['Slider']['title'];
+                              $page = $item['Slider']['page'];
                               echo $this->Html->link($title, $page);
                             ?>
-                        </h1><br>
-                        <span>
-                            <i>
-                                <?php echo $slider['Slider']['desc']; ?>
-                            </i>
-                        </span>
+                        </h1>
+                        <div class="desc" style="<?php echo $item['Slider']['style']; ?>">
+                            <?php echo $item['Slider']['desc']; ?>
+                        </div>
                     </div>
                 </div>
             <?php endforeach; ?>

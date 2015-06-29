@@ -31,10 +31,7 @@
 					<?php echo $this->Form->input('desc', array('data-provide'=>'wysiwyg', 'class'=>'form-control', 'placeholder'=>__('Desc')));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('ord', array('class'=>'form-control', 'placeholder'=>__('Ord')));?>
-				</div>
-				<div class="form-group">
-					<?php echo $this->Form->input('style', array('data-provide'=>'wysiwyg', 'class'=>'form-control', 'placeholder'=>__('Style')));?>
+					<?php echo $this->Form->input('style', array('class'=>'form-control', 'placeholder'=>__('Style')));?>
 				</div>
 				<div class="form-group">
 					<?php echo $this->Form->input('url', array('class'=>'form-control', 'placeholder'=>__('Url')));?>
