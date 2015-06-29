@@ -46,6 +46,10 @@ body {
 .carousel-caption {
   z-index: 10;
 }
+.carousel-control {
+    z-index: 15;
+}
+
 
 /* Declare heights because of positioning of img element */
 .carousel .item {

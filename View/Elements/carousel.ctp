@@ -1,3 +1,6 @@
+<?php
+    $sliders = $this->requestAction('sliders/index/sort:ord/direction:asc/');
+?>
 <div id="home-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -5,11 +8,6 @@
         <li data-target="#home-carousel" data-slide-to="1" class=""></li>
         <li data-target="#home-carousel" data-slide-to="2" class=""></li>
     </ol>
-    <?php
-      $sliders = $this->requestAction(
-        'sliders/index/sort:ord/direction:asc/'
-      );
-    ?>
     <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <?php foreach ($sliders as $i => $item): ?>

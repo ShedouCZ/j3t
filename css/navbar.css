@@ -6,11 +6,11 @@
     border-radius: 0px;
   }
 
-  body[data-page="home"] .navbar-wrapper > .container {
-      width: 520px;
-      margin-right: 6%;
+  body .navbar-wrapper > .container {
+      width: 517px;
+      margin-right: 8%;
   }
-  body[data-page="home"] .navbar > .container .navbar-brand {
+  body .navbar > .container .navbar-brand {
       margin-left: 0px;
   }
 }

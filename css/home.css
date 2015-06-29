@@ -67,7 +67,7 @@
 	zoom: 1.2;
 	position: absolute;
 	top: 50%;
-	z-index: 5;
+	z-index: 15;
 	display: inline-block;
 	margin-left: -12.5px;
 	margin-top: -3px;
