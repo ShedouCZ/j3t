@@ -3,9 +3,7 @@
     margin-top: 0px;
   }
   .navbar-wrapper .navbar {
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-radius: 0px;
   }
 
   body[data-page="home"] .navbar-wrapper > .container {
