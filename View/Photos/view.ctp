@@ -14,6 +14,12 @@
   ),
   array('block' => 'css'))?>
 
+
+<p style="margin:20px 25px 45px 25px;">Velikost 90 x 60 cm, napnuté plátno, doba dodání 14 dnů po zaplacení. Maximálně 3 kusy z každé fotografie.<br>
+Cena 15.000 kč včetně poštovného.
+50% z utržené částky bude věnováno opavskému <a href="http://www.animaviva.cz/centrum.php">Komunitnímu centru</a>.
+</p>
+
 <div class="row">
     <div class="col-md-12">
         <div class="row">

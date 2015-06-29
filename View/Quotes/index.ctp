@@ -1,3 +1,7 @@
+<?php
+	$this->assign("title", "Řekli o výstavě");
+?>
+
 <?php foreach ($quotes as $i => $quote) { ?>
 	<?php if ($i != 0) { ?>
 		<hr class="featurette-divider">
@@ -5,7 +9,7 @@
 	<div class="row featurette">
 		<div class="col-md-7">
 			<p class="lead">
-				<?php echo h($quote['Quote']['text']); ?>
+				<?php echo $quote['Quote']['text']; ?>
 			</p>
 		</div>
 		<div class="col-md-5">
@@ -14,3 +18,7 @@
 		</div>
 	</div>
 <?php } ?>
+
+<hr class="featurette-divider">
+
+<p style="text-align:right;padding:15px 65px 35px 35px;"><a style="width:200px;" href="/galerie" class="btn btn-primary btn-lg" role="button">otevřít galerii</a></p>

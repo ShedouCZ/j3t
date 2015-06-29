@@ -1,3 +1,6 @@
+<?php
+	$this->assign("title", "NO STRESS!");
+?>
 <p>
     Společnost J3T patří Janě Jabůrkové a Jiřímu Turkovi.
     Věnují se komerční a dokumentární fotografii, produkci a&nbsp;postprodukci a nyní realizují svoji první společnou fotografickou výstavu.
@@ -15,9 +18,11 @@
 <p>
     Jana Jabůrková a Jiří Turek, fotografové, k výstavě NO STRESS říkají:
     "Chtěli jsme zachytit ojedinělý ráj nedaleko Evropy, dokud nebude zničený všudepřítomnou uniformitou.
-    Věříme, že fotografie minimálně mile zahřejí….
-    Na konci výstavy chceme věnovat nově zrekonstruovanému opavskému Komunitnímu centru fotografii dle jejich výběru.
-    Zároveň se tomuto centru chystámě věnovat část výtěžku z prodaných fotografií.
+    Věříme, že fotografie minimálně mile zahřejí…."
+    <b>Na konci výstavy chceme věnovat nově zrekonstruovanému opavskému Komunitnímu centru fotografii dle jejich výběru.
+    Zároveň se tomuto centru chystámě věnovat část výtěžku z prodaných fotografií.</b>
     Věříme, že tak podpoříme náročnou práci sociálních pracovníků, která je opomíjená a není často doceněná.
     Prosíme také o Vaši podporu!
 </p>
+
+<p style="text-align:right;padding:35px 65px;"><a style="width:200px;" href="/galerie" class="btn btn-primary btn-lg" role="button">otevřít galerii</a></p>
