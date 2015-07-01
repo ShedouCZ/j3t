@@ -5,7 +5,7 @@ class PhotosController extends AppController {
 
 	public $components = array('Paginator', 'Session');
 
-	public $helpers = array('Gallery.Gallery');
+	public $helpers = array('Gallery');
 
 	public $uses = array('Photo', 'Gallery.Album');
 
