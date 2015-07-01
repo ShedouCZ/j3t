@@ -105,8 +105,8 @@ class GalleryHelper extends AppHelper
         if (empty($album['Picture'])) {
             $this->_noPhotosMessageTmpl();
         } else {
-            foreach ($album['Picture'] as $picture) {
-                $this->_thumbnailTmpl($picture, $style);
+            foreach ($album['Picture'] as $i => $picture) {
+                $this->_thumbnailTmpl($picture, $style, $i);
             }
         }
     }
@@ -164,13 +164,14 @@ class GalleryHelper extends AppHelper
      * @param $picture
      * @param string $style
      */
-    private function _thumbnailTmpl($picture, $style = 'medium')
+    private function _thumbnailTmpl($picture, $style = 'medium', $i = null)
     {
         echo '
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
                 <a href="' . $picture['link'] . '" class="swipebox">
                     <img src="' . $picture['styles'][$style] . '" alt="">
+                    <span class="ord">' . ($i + 1) . '</span>
                 </a>
             </div>
         </div>
