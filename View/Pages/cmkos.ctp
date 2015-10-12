@@ -4,25 +4,23 @@
     Tiskopis souhlasu s pořízením a užitím <a href="/files/cmkos/souhlas_cmkos.docx">ke stažení zde</a> (soubor pro Word 22kB).
 </p>
 
-<p>
+<div align="center" class="embed-responsive embed-responsive-16by9">
     Video Sociální dialog<br>
-    <video controls poster="/files/cmkos/socialnidialog.png">
+    <video class="embed-responsive-item" controls poster="/files/cmkos/socialnidialog.png">
       <source src="/files/cmkos/socialnidialog_small.webm" type="video/webm">
       <source src="/files/cmkos/socialnidialog_small.mov" type="video/mp4">
         váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
     </video>
+</div>
 
-</p>
-
-<p>
+<div align="center" class="embed-responsive embed-responsive-16by9">
     Video Kolektivní vyjednávání<br>
-    <video controls poster="/files/cmkos/kolektivnivyjednavani.png">
+    <video class="embed-responsive-item" controls poster="/files/cmkos/kolektivnivyjednavani.png">
       <source src="/files/cmkos/kolektivnivyjednavani_small.webm" type="video/webm">
       <source src="/files/cmkos/kolektivnivyjednavani_small.mov" type="video/mp4">
         váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
     </video>
-
-</p>
+</div>
 
 <link rel="stylesheet" type="text/css" href="/gallery/css/style.css" /><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css" /><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script><script type="text/javascript" src="/gallery/js/lib/modernizr.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js"></script>
 
