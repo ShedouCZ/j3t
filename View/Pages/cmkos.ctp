@@ -1,4 +1,3 @@
-
 <h3>ČMKOS</h3>
 
 <p style="margin-bottom:45px">
@@ -25,8 +24,7 @@
 
 </p>
 
-
-
+<link rel="stylesheet" type="text/css" href="/gallery/css/style.css" /><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css" /><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script><script type="text/javascript" src="/gallery/js/lib/modernizr.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js"></script>
 
 <div class="row" style="margin-top:75px">
     <div class="col-md-12">
