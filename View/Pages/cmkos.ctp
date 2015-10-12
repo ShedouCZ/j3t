@@ -7,7 +7,7 @@
 
 <p>
     Video Sociální dialog<br>
-    <video controls>
+    <video controls poster="/files/cmkos/socialnidialog.png">
       <source src="/files/cmkos/socialnidialog_small.webm" type="video/webm">
       <source src="/files/cmkos/socialnidialog_small.mov" type="video/mp4">
         váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
@@ -17,7 +17,7 @@
 
 <p>
     Video Kolektivní vyjednávání<br>
-    <video controls>
+    <video controls poster="/files/cmkos/kolektivnivyjednavani.png">
       <source src="/files/cmkos/kolektivnivyjednavani_small.webm" type="video/webm">
       <source src="/files/cmkos/kolektivnivyjednavani_small.mov" type="video/mp4">
         váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
