@@ -5,17 +5,25 @@
     Tiskopis souhlasu s pořízením a užitím <a href="/files/cmkos/souhlas_cmkos.docx">ke stažení zde</a> (soubor pro Word 22kB).
 </p>
 
-<video controls>
-  <source src="/files/cmkos/socialnidialog_small.webm" type="video/webm">
-  <source src="/files/cmkos/socialnidialog_small.mov" type="video/mp4">
-    váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
-</video>
+<p>
+    Video Sociální dialog<br>
+    <video controls>
+      <source src="/files/cmkos/socialnidialog_small.webm" type="video/webm">
+      <source src="/files/cmkos/socialnidialog_small.mov" type="video/mp4">
+        váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
+    </video>
 
-<video controls>
-  <source src="/files/cmkos/kolektivnivyjednavani_small.webm" type="video/webm">
-  <source src="/files/cmkos/kolektivnivyjednavani_small.mov" type="video/mp4">
-    váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
-</video>
+</p>
+
+<p>
+    Video Kolektivní vyjednávání<br>
+    <video controls>
+      <source src="/files/cmkos/kolektivnivyjednavani_small.webm" type="video/webm">
+      <source src="/files/cmkos/kolektivnivyjednavani_small.mov" type="video/mp4">
+        váš prohlížeč nepodporuje video formát WebM ani H.264, prosím stáhněte si <a href="https://www.google.com/intl/cs/chrome/browser/desktop/">Chrome</a> nebo <a href="https://www.mozilla.org/cs/firefox/new/">Firefox</a>:
+    </video>
+
+</p>
 
 
 
@@ -23,7 +31,6 @@
 <div class="row" style="margin-top:75px">
     <div class="col-md-12">
         <div class="row">
-
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <a href="/files/gallery/2/AAAAAAAAAAAFFAEAAAAH0AA.jpg" class="swipebox">
