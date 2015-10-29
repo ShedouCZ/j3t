@@ -1,7 +1,8 @@
 <?php
 	$links = array(
 		'NO STRESS!' => '/no-stress',
-		'Řekli o výstavě' => '/o-vystave',
+		//'Řekli o výstavě' => '/o-vystave',
+		'FOTOdoKOUPELNY' => '/foto-do-koupelny',
 		'Galerie' => '/galerie',
 		'Kontakt' => '/kontakt',
 	);
