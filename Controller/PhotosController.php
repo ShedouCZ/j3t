@@ -18,7 +18,7 @@ class PhotosController extends AppController {
 	public function view($id=null) {
 		$this->Album->id = $id;
 
-		if (!$this->Album->exists()) {
+		if (0 && !$this->Album->exists()) {
 			// use first you find
 			$photo = $this->Photo->find('first');
 			$this->Album->id = $photo['Gallery']['Album']['id'];
@@ -33,11 +33,14 @@ class PhotosController extends AppController {
 			))
 		);
 
-		$album = $this->Album->read(null);
+		$this->Album->id = 1;
+		$do_koupelny = $this->Album->read(null);
+		$this->Album->id = 1;
+		$no_stress = $this->Album->read(null);
 		$user_id = $this->Auth->user('id');
 
-		$this->set('title_for_layout', $album['Album']['title']);
-		$this->set(compact('album', 'user_id'));
+		$this->set('title_for_layout', 'Galerie');
+		$this->set(compact('do_koupelny', 'no_stress', 'user_id'));
 	}
 
 	public function admin_gallery($id) {
