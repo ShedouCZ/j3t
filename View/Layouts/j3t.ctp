@@ -78,11 +78,18 @@
 			<?php //echo $this->Element('header'); ?>
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->Element('navigation'); ?>
-			<?php if ($this->request->here == '/') echo $this->Element('carousel'); ?>
-
-			<div class="content container">
-				<?php echo $this->fetch('content'); ?>
-			</div>
+			<?php if ($this->request->here == '/') { ?>
+				<?php //echo $this->Element('carousel'); ?>
+				<div class="container-fluid">
+					<div class="row">
+						<?php echo $this->fetch('content'); ?>
+					</div>
+				</div>
+			<?php } else { ?>
+				<div class="content container">
+					<?php echo $this->fetch('content'); ?>
+				</div>
+			<?php } ?>
 
 			<?php if (!Configure::read('Routing.admin')) echo $this->element('footer'); ?>
 
