@@ -1,6 +1,9 @@
 <style media="screen">
     .thumbnail {
-        min-height: 247px;
+        min-height: 263px;
+    }
+    .ord {
+	bottom: 41px;
     }
 </style>
 <?php $this->Html->script(
