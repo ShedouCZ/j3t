@@ -33,7 +33,7 @@ class PhotosController extends AppController {
 			))
 		);
 
-		$this->Album->id = 1;
+		$this->Album->id = 4;
 		$do_koupelny = $this->Album->read(null);
 		$this->Album->id = 1;
 		$no_stress = $this->Album->read(null);

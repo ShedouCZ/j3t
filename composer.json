@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "cakephp/cakephp": "2.6.*",
+        "cakephp/cakephp": "2.8.0",
         "ptica/BootstrapCake": "dev-master",
         "codaxis/cakephp-bootstrap3-helpers": "1.1",
         "ceeram/clear_cache": "~1.1",
