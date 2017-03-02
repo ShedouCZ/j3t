@@ -21,8 +21,32 @@
         }
     }
 
+    @media (max-width: 1440px) {
+        .grid-item img { zoom: 0.95 }
+    }
+    @media (max-width: 1390px) {
+        .grid-item img { zoom: 0.90 }
+    }
+    @media (max-width: 1300px) {
+        .grid-item img { zoom: 0.85 }
+    }
+    @media (max-width: 1230px) {
+        .grid-item img { zoom: 0.80 }
+    }
+    @media (max-width: 1170px) {
+        .grid-item img { zoom: 0.75 }
+    }
     @media (max-width: 1094px) {
         .grid-item img { zoom: 0.65 }
+    }
+    @media (max-width: 950px) {
+        .grid-item img { zoom: 0.6 }
+    }
+    @media (max-width: 878px) {
+        .grid-item img { zoom: 0.55 }
+    }
+    @media (max-width: 800px) {
+        .grid-item img { zoom: 0.5 }
     }
     @media (max-width: 757px) {
         .grid-item img { zoom: 0.45 }
