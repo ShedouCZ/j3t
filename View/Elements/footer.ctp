@@ -1,8 +1,8 @@
 <?php
 	$links = array(
 		'Hlavní strana' => '/',
-		'Řekli o výstavě' => '/o-vystave',
-		'Galerie' => '/galerie',
+		//'Řekli o výstavě' => '/o-vystave',
+		//'Galerie' => '/galerie',
 		'Kontakt' => '/kontakt',
 	);
 ?>

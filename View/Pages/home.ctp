@@ -11,7 +11,7 @@
             width: 50%;
         }
         .full {
-            margin-top:50px;
+            margin-top:65px;
         }
         .container-fluid {
             background-color: #1c1c1c;
